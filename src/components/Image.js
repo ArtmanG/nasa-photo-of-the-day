@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Image = ({hdurl}) => {
+const Image = ({url}) => {
     return (
-        <img scr={hdurl} alt='NASA Image' />
-    ); 
+        <img scr={url} alt='NASA' />
+    ) 
 };
 
 export default Image;
